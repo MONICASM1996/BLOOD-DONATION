@@ -1,0 +1,363 @@
+:root {
+  --main-blue-color-theme: #41afb8;
+  --main-dark-blue-color-theme: #0a6065;
+  --main-text-color: #000;
+  --heading-text-color: #0c3a3d;
+  --normal-text-color: #001011;
+  --white-text-color: #fff;
+  --placeholder-text-color: #bdbdbd;
+}
+
+/* Body */
+#bootstrap-override body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#bootstrap-override h5 {
+  color: var(--heading-text-color);
+  font-size: 24px;
+}
+
+#bootstrap-override h1 {
+  color: var(--normal-text-color);
+  font-size: 55px;
+}
+
+#bootstrap-override h2 {
+  color: var(--normal-text-color);
+  font-size: 35px;
+}
+
+#bootstrap-override p {
+  color: var(--normal-text-color);
+  font-size: 14px;
+}
+
+#bootstrap-override a {
+  color: var(--main-blue-color-theme);
+}
+
+/* Button Primary */
+#bootstrap-override .btn-primary {
+  color: var(--white-text-color);
+  background-color: var(--main-blue-color-theme);
+  border-color: var(--main-blue-color-theme);
+  border-radius: 0;
+}
+
+#bootstrap-override .btn-primary:hover {
+  opacity: 80%;
+}
+
+/* Header */
+#bootstrap-override header a.nav-link {
+  color: var(--normal-text-color);
+}
+
+#bootstrap-override header a.nav-link:hover {
+  color: var(--main-blue-color-theme);
+}
+
+#bootstrap-override header a.nav-link.active {
+  color: var(--main-blue-color-theme);
+}
+
+#bootstrap-override header a.btn {
+  border-color: var(--main-blue-color-theme);
+}
+
+#bootstrap-override header a.btn:hover {
+  color: var(--white-text-color);
+  background-color: var(--main-blue-color-theme);
+}
+
+/* Banner */
+#banner-hero {
+  height: 90vh;
+  background-image: url("./images/family.jpg");
+  background-image: linear-gradient(
+      90deg,
+      #ffffff 0%,
+      rgba(139, 55, 55, 0) 74.31%
+    ),
+    url("./images/family.jpg");
+  background-position-x: right;
+  background-size: auto 90vh;
+  background-repeat: no-repeat;
+}
+
+#banner-text {
+  width: 60vw;
+}
+
+/* Happy Stories */
+#happy-stories .col-md-6 {
+  padding: 0;
+}
+
+#right-side .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#story-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(180deg, #0c3a3d 0%, #0a6065 100%);
+}
+
+#story-heading div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#story-heading hr {
+  width: 85px;
+  height: 3px;
+  background-color: #6be9ed;
+  margin-left: 0;
+}
+
+#story-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#story-detail div {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* How it works */
+#how-it-work-title {
+  background-image: url("./images/BACKGROUND.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 75px;
+  margin-left: -75px;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 306px;
+}
+
+#how-it-work .content {
+  width: 210px;
+  margin-top: 87px;
+}
+
+#how-it-work .content a {
+  margin-top: 20px;
+}
+
+#steps {
+  position: relative;
+  top: -453px;
+  left: 284px;
+}
+
+#steps .step {
+  width: 251.84px;
+  height: 453px;
+  display: table-cell;
+  vertical-align: bottom;
+  border-left: 20px solid transparent;
+}
+
+#steps .step .number {
+  display: inline-block;
+  font-size: 14px;
+  color: var(--white-text-color);
+  font-weight: bold;
+  padding: 14px;
+  border: 1px solid #fff;
+}
+
+#steps .step-detail {
+  width: 90%;
+}
+
+#steps .step-detail p {
+  color: var(--white-text-color);
+}
+
+#step1 {
+  background-image: url("./images/Rectangle\ 8.1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#step2 {
+  background-image: url("./images/Rectangle\ 8.2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#step3 {
+  background-image: url("./images/COUNTER-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Donation Centres */
+#donation-centres {
+  height: auto;
+  background-image: url("./images/MAP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#donation-centres .both-side-container {
+  height: 70vh;
+}
+
+#donation-centres .left-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#donation-centres .left-side .row {
+  background-color: white;
+  width: 80%;
+  padding: 5% 2%;
+}
+
+#donation-centres .left-side .row .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#donation-centres .left-side .row h2 {
+  color: var(--main-blue-color-theme);
+  font-size: 50px;
+}
+
+#donation-centres .left-side .row h5 {
+  color: var(--normal-text-color);
+  font-size: 18px;
+}
+
+#donation-centres .right-side {
+  height: 100%;
+  background: linear-gradient(180deg, #0c3a3d 0%, #0a6065 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#donation-centres .right-side h5 {
+  color: var(--white-text-color);
+}
+
+#donation-centres .right-side h3 {
+  color: var(--white-text-color);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#donation-centres .right-side a {
+  color: #6be9ed;
+}
+
+/* Saving you */
+#saving-you .col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#boxes {
+  display: table;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+#boxes .row {
+  display: table-row;
+}
+
+#saving-you .box {
+  border: 2px solid var(--main-dark-blue-color-theme);
+  display: table-cell;
+}
+
+/* make appointment */
+#make-appointment {
+  background-color: var(--main-dark-blue-color-theme);
+  height: 70vh;
+}
+
+#make-appointment .container {
+  height: 100%;
+}
+
+#make-appointment .container .row {
+  height: 100%;
+}
+
+#make-appointment .col-md-7 {
+  display: flex;
+  align-items: center;
+}
+
+#make-appointment .col-md-7 img {
+  border-radius: 10px;
+}
+
+#make-appointment .col-md-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#make-appointment h5 {
+  color: var(--white-text-color);
+}
+
+#make-appointment h2 {
+  color: var(--white-text-color);
+}
+
+/* footer */
+footer {
+  background-color: var(--heading-text-color);
+  height: 100px;
+}
+
+#bootstrap-override footer .container {
+  height: 100%;
+}
+
+#bootstrap-override footer .container .row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bootstrap-override footer p {
+  color: var(--white-text-color);
+}
+
+#social-icons {
+  list-style: none;
+}
+
+#social-icons li {
+  display: inline;
+  margin-right: 30px;
+}
+
+#social-icons li a:hover {
+  opacity: 80%;
+}
